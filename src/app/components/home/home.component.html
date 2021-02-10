@@ -1,0 +1,10 @@
+<div class="col-lg-8 col-lg-offset-2">
+    <div class="jumbotron">
+        <h1>{{title}}</h1>
+        <p>Yes, Another Blog</p>
+        <p *ngIf="identity">
+            <a class="btn btn-success btn-lg" role="button" [routerLink]="['/timeline']" [routerLinkActive]="['active']">Timeline</a>
+        </p>
+        <img src="assets/social-3.png" />
+    </div>
+</div>
